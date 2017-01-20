@@ -1,3 +1,18 @@
 [submodule "aima-python"]
 	path = aima-python
 	url = https://github.com/aimacode/aima-python
+[submodule "aima-java"]
+	path = aima-java
+	url = https://github.com/aimacode/aima-java.git
+[submodule "aima-javascript"]
+	path = aima-javascript
+	url = https://github.com/aimacode/aima-javascript.git
+[submodule "aima-scala"]
+	path = aima-scala
+	url = https://github.com/aimacode/aima-scala.git
+[submodule "aima-csharp"]
+	path = aima-csharp
+	url = https://github.com/aimacode/aima-csharp.git
+[submodule "aima-lisp"]
+	path = aima-lisp
+	url = https://github.com/aimacode/aima-lisp.git
