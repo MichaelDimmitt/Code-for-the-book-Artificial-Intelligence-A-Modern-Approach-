@@ -124,3 +124,12 @@ Saving session...
 ...completed.
 
 </pre>
+http://www3.cs.stonybrook.edu/~algorith/book/programs/
+http://www.algorist.com/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)
+
+https://news.ycombinator.com/item?id=2914112
+
+https://github.com/gzc/CLRS
+
+knuth down;oadable programs
+http://www-cs-faculty.stanford.edu/~uno/programs.html
