@@ -39,13 +39,17 @@ Submodule path 'aima-javascript': checked out 'dbce029383415fdedff3a1fddd8e59c7f
 fatal: no submodule mapping found in .gitmodules for path '.publish'
 Failed to recurse into submodule path 'aima-javascript'
 Michaels-MacBook-Pro-3:Environment_alias zen1$ cd Code-for-the-book-Artificial-Intelligence-Modern-Approach-/
-Michaels-MacBook-Pro-3:Code-for-the-book-Artificial-Intelligence-Modern-Approach- zen1$ for d in ./*/ ; do (cd "$d" && echo "$d" && cloc --vcs git); done
+</pre>
+<br><br>
+
+<pre>
+for d in ./*/ ; do (cd "$d" && echo "$d" && cloc --vcs git); done
 ./aima-csharp/
      211 text files.
      211 unique files.                                          
        4 files ignored.
 
-github.com/AlDanial/cloc v 1.68  T=0.25 s (842.0 files/s, 89723.1 lines/s)
+github.com/AlDanial/cloc v 1.72  T=0.33 s (623.0 files/s, 66385.6 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
@@ -55,15 +59,12 @@ Markdown                         1              0              0              2
 -------------------------------------------------------------------------------
 SUM:                           207           2445           5410          14202
 -------------------------------------------------------------------------------
-Saving session...
-...saving history...truncating history files...
-...completed.
 ./aima-java/
      994 text files.
      990 unique files.                                          
      101 files ignored.
 
-github.com/AlDanial/cloc v 1.68  T=1.06 s (851.1 files/s, 90676.5 lines/s)
+github.com/AlDanial/cloc v 1.72  T=1.55 s (581.9 files/s, 61995.9 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
@@ -76,16 +77,13 @@ YAML                             1              2              0              5
 -------------------------------------------------------------------------------
 SUM:                           901          12244          22862          60889
 -------------------------------------------------------------------------------
-Saving session...
-...saving history...truncating history files...
-...completed.
 ./aima-javascript/
      115 text files.
      114 unique files.                                          
-Complex regular subexpression recursion limit (32766) exceeded at /usr/local/bin/cloc line 7272.
+Complex regular subexpression recursion limit (32766) exceeded at /usr/local/Cellar/cloc/1.72/libexec/bin/cloc line 7573.
        9 files ignored.
 
-github.com/AlDanial/cloc v 1.68  T=0.20 s (566.4 files/s, 90521.7 lines/s)
+github.com/AlDanial/cloc v 1.72  T=0.27 s (409.2 files/s, 65394.9 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
@@ -98,32 +96,57 @@ YAML                             1              0              0              3
 -------------------------------------------------------------------------------
 SUM:                           111           3279           2854          11607
 -------------------------------------------------------------------------------
-Saving session...
-...saving history...truncating history files...
-...completed.
 ./aima-lisp/
-       0 text files.
-       0 unique files.                              
-       0 files ignored.
-Saving session...
-...saving history...truncating history files...
-...completed.
-./aima-python/
-       0 text files.
-       0 unique files.                              
-       0 files ignored.
-Saving session...
-...saving history...truncating history files...
-...completed.
-./aima-scala/
-       0 text files.
-       0 unique files.                              
-       0 files ignored.
-Saving session...
-...saving history...truncating history files...
-...completed.
+     116 text files.
+     113 unique files.                                          
+       6 files ignored.
 
+github.com/AlDanial/cloc v 1.72  T=0.25 s (445.3 files/s, 56648.1 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Lisp                            88           1248            896           6573
+HTML                            21            219             20           5031
+Markdown                         1              2              0              5
+-------------------------------------------------------------------------------
+SUM:                           110           1469            916          11609
+-------------------------------------------------------------------------------
+./aima-python/
+      61 text files.
+      61 unique files.                              
+      38 files ignored.
+
+github.com/AlDanial/cloc v 1.72  T=0.21 s (163.4 files/s, 46872.5 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Python                          28           1916           1845           5643
+JavaScript                       3             29             42            261
+Markdown                         2             56              0            194
+make                             1             13              1             20
+YAML                             1              6              0             17
+-------------------------------------------------------------------------------
+SUM:                            35           2020           1888           6135
+-------------------------------------------------------------------------------
+./aima-scala/
+      48 text files.
+      48 unique files.                              
+       6 files ignored.
+
+github.com/AlDanial/cloc v 1.72  T=0.12 s (351.9 files/s, 13614.6 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Scala                           40            305            111           1184
+Markdown                         1              3              0             12
+YAML                             1              0              0             10
+-------------------------------------------------------------------------------
+SUM:                            42            308            111           1206
+-------------------------------------------------------------------------------
 </pre>
+
+
+
 http://www3.cs.stonybrook.edu/~algorith/book/programs/
 http://www.algorist.com/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)
 
